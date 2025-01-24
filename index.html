@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- tailwind css and daisy UI link -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- fontawesome link -->
+    <script src="https://kit.fontawesome.com/3476493e11.js" crossorigin="anonymous"></script>
+
+    <!-- default css styles -->
+
+    <style>
+        .primary-clr {
+            color: #707070;
+            font-size: 1.1rem;
+        }
+
+        .primary-bg {
+            background-color: #b68c5a;
+            color: white;
+            font-weight: bold;
+            padding: 15px 30px;
+            border-radius: 8px;
+        }
+    </style>
+
+    <!-- website title -->
+    <title>Legal solution</title>
+
+</head>
+
+<body>
+
+    <!-- header section starts here -->
+
+    <header class="max-w-6xl mx-auto">
+
+        <!-- navbar section -->
+
+        <nav class="mt-5 lg:mt-10">
+
+            <div class="navbar bg-base-100">
+                <div class="navbar-start">
+                    <div class="dropdown">
+                        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="size-6">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                            </svg>
+                        </div>
+                        <ul tabindex="0"
+                            class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                            <li class="primary-clr"><a>Home</a></li>
+                            <li class="primary-clr"><a>Services <i class="fa-solid fa-chevron-right"></i></a></li>
+                            <li class="primary-clr"><a>Cases</a></li>
+                            <li class="primary-clr"><a>Blog</a></li>
+                            <li class="primary-clr"><a>Contact Us</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- navbar logo -->
+                    <div>
+                        <img src="images/logo2.png" alt="">
+                    </div>
+
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                    <ul class="menu menu-horizontal px-1">
+                        <li class="primary-clr"><a>Home</a></li>
+                        <li class="primary-clr"><a>Services <i
+                                    class="fa-solid fa-chevron-right flex items-center"></i></a></li>
+                        <li class="primary-clr"><a>Cases <i class="fa-solid fa-chevron-right"></i></a></li>
+                        <li class="primary-clr"><a>Blog <i class="fa-solid fa-chevron-right"></i></a></li>
+                        <li class="primary-clr"><a>Contact Us <i class="fa-solid fa-chevron-right"></i></a></li>
+                    </ul>
+                </div>
+                <div class="navbar-end">
+                    <a class="btn bg-[#b68c5a] text-white hover:bg-[#b68c5a]  ">Free Consultation</a>
+                </div>
+            </div>
+
+        </nav>
+
+        <!-- banner section -->
+
+        <div class="hero min-h-screen"
+            style="background-image: url(images/banner.png);">
+            <div class="hero-overlay bg-opacity-60"></div>
+            <div class="hero-content text-neutral-content text-center">
+                <div class="max-w-md">
+                    <h1 class="mb-5 text-5xl font-bold">We Provide Effective <br>
+                        Legal Solutions</h1>
+                    <p class="mb-5">
+                        There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.
+                    </p>
+
+                    <div class="join">
+                        <input class="input w- input-bordered mr-5" placeholder="Search your services" />
+                        <button class="btn bg-[#b68c5a] hover:bg-[#b68c5a]   border-none text-white">Search</button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </header>
+
+    <!-- header section ends here -->
+
+</body>
+
+</html>
